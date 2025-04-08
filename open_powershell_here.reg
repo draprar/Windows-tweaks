@@ -1,0 +1,19 @@
+Windows Registry Editor Version 5.00
+
+; Adds "Open PowerShell here" to context menu (normal, not admin)
+
+[HKEY_CLASSES_ROOT\Directory\shell\Powershell]
+@="Open PowerShell here"
+"Icon"="powershell.exe"
+"NoWorkingDirectory"=""
+
+[HKEY_CLASSES_ROOT\Directory\shell\Powershell\command]
+@="powershell.exe -NoExit -Command Set-Location -LiteralPath '%L'"
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\Powershell]
+@="Open PowerShell here"
+"Icon"="powershell.exe"
+"NoWorkingDirectory"=""
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\Powershell\command]
+@="powershell.exe -NoExit -Command Set-Location -LiteralPath '%V'"

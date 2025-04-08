@@ -1,8 +1,12 @@
 Windows Registry Editor Version 5.00
 
+; Adds "Open CMD as ADMIN" to folder right-click context menu
+
 [HKEY_CLASSES_ROOT\Directory\shell\runas]
 @="Open CMD as ADMIN"
 "NoWorkingDirectory"=""
+"HasLUAShield"=""
+"Icon"="cmd.exe"
 
 [HKEY_CLASSES_ROOT\Directory\shell\runas\command]
 @="cmd.exe /k pushd \"%V\""
@@ -10,6 +14,8 @@ Windows Registry Editor Version 5.00
 [HKEY_CLASSES_ROOT\Directory\Background\shell\runas]
 @="Open CMD as ADMIN"
 "NoWorkingDirectory"=""
+"HasLUAShield"=""
+"Icon"="cmd.exe"
 
 [HKEY_CLASSES_ROOT\Directory\Background\shell\runas\command]
 @="cmd.exe /k pushd \"%V\""
