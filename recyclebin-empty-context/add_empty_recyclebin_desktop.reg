@@ -1,0 +1,10 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\EmptyRecycleBin]
+@="Empty Recycle Bin"
+"Icon"="shell32.dll,-254"
+"Position"="Bottom"
+"CommandFlags"=dword:00000020
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\EmptyRecycleBin\command]
+@="cmd.exe /c \"echo Y|PowerShell.exe -NoProfile -Command Clear-RecycleBin\""
