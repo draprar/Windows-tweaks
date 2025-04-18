@@ -1,0 +1,22 @@
+Windows Registry Editor Version 5.00
+
+; Restore context menu delay
+[HKEY_CURRENT_USER\Control Panel\Desktop]
+"MenuShowDelay"="400"
+"WindowAnimation"="1"
+"MinAnimate"="1"
+"TaskbarAnimations"="1"
+"AltTabSettings"="0"
+"ScrollHeight"="3"
+"ScrollWidth"="3"
+
+; Restore tooltip delay
+[HKEY_CURRENT_USER\Control Panel\Mouse]
+"MouseHoverTime"="400"
+
+; Restore default startup delay
+[-HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Serialize]
+
+; Restore system exclamation sound
+[HKEY_CURRENT_USER\AppEvents\Schemes\Apps\.Default\SystemExclamation\.Current]
+@="Windows Background.wav"

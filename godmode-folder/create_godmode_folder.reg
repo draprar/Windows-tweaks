@@ -1,0 +1,11 @@
+Windows Registry Editor Version 5.00
+
+; Adds "Create GodMode folder" to desktop right-click menu
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\CreateGodMode]
+@="Create GodMode folder"
+"Icon"="shell32.dll,278"
+"Position"="Bottom"
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\CreateGodMode\command]
+@="cmd.exe /c mkdir \"%userprofile%\\Desktop\\GodMode.{ED7BA470-8E54-465E-825C-99712043E01C}\""

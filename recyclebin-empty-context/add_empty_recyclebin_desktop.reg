@@ -1,5 +1,7 @@
 Windows Registry Editor Version 5.00
 
+; Adds "Empty Recycle Bin" to desktop right-click context menu
+
 [HKEY_CLASSES_ROOT\DesktopBackground\Shell\EmptyRecycleBin]
 @="Empty Recycle Bin"
 "Icon"="shell32.dll,-254"
@@ -7,4 +9,4 @@ Windows Registry Editor Version 5.00
 "CommandFlags"=dword:00000020
 
 [HKEY_CLASSES_ROOT\DesktopBackground\Shell\EmptyRecycleBin\command]
-@="cmd.exe /c \"echo Y|PowerShell.exe -NoProfile -Command Clear-RecycleBin\""
+@="powershell.exe -NoProfile -WindowStyle Hidden -Command Clear-RecycleBin -Force"
