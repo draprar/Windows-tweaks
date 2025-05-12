@@ -14,4 +14,4 @@ Improves overall GUI responsiveness in Windows by reducing animation delays, too
 - No delay for startup apps (`StartupDelayInMSec`)
 - Disabled system exclamation sounds *(optional)*
 
-Tested on Windows 10 and 11.
+Tested on Windows 10.
