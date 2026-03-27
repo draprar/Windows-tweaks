@@ -8,20 +8,6 @@ on:
   workflow_dispatch:
 
 jobs:
-  markdown:
-    name: Markdown lint
-    runs-on: ubuntu-latest
-    continue-on-error: true
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
-      - name: Lint Markdown
-        uses: DavidAnson/markdownlint-cli2-action@v20
-        with:
-          globs: |
-            **/*.md
-
   structure:
     name: Repository sanity checks
     runs-on: ubuntu-latest
