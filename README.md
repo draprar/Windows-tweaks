@@ -1,9 +1,16 @@
 ﻿# Windows Tweaks
 
 A collection of minimal, useful `.reg` tweaks for Windows 10.  
-Each folder contains a tweak and its optional undo file.
+Each folder contains a tweak and a matching undo file.
 
 > ⚠️ Always back up your registry before applying any `.reg` files.  
+
+## Project Status
+
+Windows 10 reached end of support in October 2025. This repository is in **maintenance mode**:
+- Existing tweaks may receive safety/documentation fixes.
+- No broad feature expansion is planned.
+- New tweaks should target compatibility-conscious scenarios only.
 
 ---
 
@@ -22,6 +29,13 @@ Adds "Empty Recycle Bin" to the desktop context menu.
 Speeds up UI responsiveness by disabling animations and startup delays.
 
 ---
+
+## Compatibility and Safety
+
+- Primary target: Windows 10.
+- Run `.reg` files with an account that has the required privileges (some tweaks need Administrator rights).
+- Prefer creating a restore point before applying system-level tweaks.
+- Some changes may require sign out/in or restart to fully apply.
 
 ## 🚀 Usage
 
