@@ -1,5 +1,7 @@
 ## Snappy Windows – Performance Tweak Pack
 
+> Status: archived (EOL). This tweak pack is provided as-is for Windows 10.
+
 Improves overall GUI responsiveness in Windows by reducing animation delays, tooltip lag, startup delays, and unnecessary visual effects.
 
 ### Files:

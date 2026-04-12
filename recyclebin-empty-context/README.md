@@ -1,5 +1,7 @@
 ## Add "Empty Recycle Bin" to Desktop Context Menu
 
+> Status: archived (EOL). This tweak is provided as-is for Windows 10.
+
 Adds a quick-access option to empty the Recycle Bin directly from the desktop background right-click menu.
 
 ### Files:

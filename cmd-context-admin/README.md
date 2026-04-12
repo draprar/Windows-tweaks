@@ -1,5 +1,7 @@
 ## Open CMD as Administrator – Context Menu Tweak
 
+> Status: archived (EOL). This tweak is provided as-is for Windows 10.
+
 Adds an option to open `cmd.exe` as Administrator from the folder and background context menu in Windows Explorer.
 
 ### Files:

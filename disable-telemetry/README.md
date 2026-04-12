@@ -1,6 +1,10 @@
 ## Disable Telemetry – Privacy Tweak
 
+> Status: archived (EOL). This tweak is provided as-is for Windows 10.
+
 Disables Microsoft telemetry and feedback collection for improved privacy, without compromising system stability or notifications.
+
+Note: disabling telemetry can affect diagnostics/troubleshooting and may change behavior across Windows builds.
 
 ### Files:
 - `disable_telemetry.reg` – Turns off telemetry services and feedback-related tasks.

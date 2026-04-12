@@ -10,7 +10,7 @@ if (-not (Test-Path -LiteralPath $rootReadme)) {
     throw "Missing required file: README.md in repository root"
 }
 
-$ignoreDirs = @(".github", "scripts")
+$ignoreDirs = @(".github", "scripts", ".idea", ".git")
 $tweakDirs = Get-ChildItem -Path $RepoRoot -Directory |
     Where-Object { $ignoreDirs -notcontains $_.Name }
 
