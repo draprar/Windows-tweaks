@@ -3,24 +3,25 @@
 A collection of minimal, useful `.reg` tweaks for Windows 10.  
 Each folder contains a tweak and a matching undo file.
 
+> This repository is archived and read-only.
+
 > ⚠️ Always back up your registry before applying any `.reg` files.  
 
 ## Archived / End of Life (EOL)
 
-Windows 10 reached end of support in **October 2025**. This repository is a **public archive (read-only)** (as of **2026-04-12**):
+Windows 10 reached end of support in **October 2025**. This repository is a **public archive (read-only)** (as of **2026-04-12**).
+
+This is an **intentional archive** — the content remains available as a reference and a set of small, reversible tweaks:
 
 - No new tweaks or compatibility updates are planned.
 - This project is not actively monitored for support requests.
 - You are welcome to **fork** the repository if you want to continue maintenance.
 
-## Project Status
-
-This repository is **archived** (intentionally). The content remains available as a reference and a set of small, reversible tweaks.
-
 ### Support / Contributions
 
-- No guarantees, no active support.
-- Please do not expect responses to issues/PRs (consider forking instead).
+- This repository is read-only.
+- Issues and pull requests are disabled.
+- If you want to extend or maintain these tweaks, please fork the repository.
 
 ---
 
@@ -48,9 +49,9 @@ Speeds up UI responsiveness by disabling animations and startup delays.
 - Run `.reg` files with an account that has the required privileges (some tweaks need Administrator rights).
 - Some changes may require sign out/in or restart to fully apply.
 
-### About security
+### Security note
 
-This repository contains registry modifications, including tweaks that affect context menus and system behavior. Treat `.reg` files like code: only run what you understand and trust.
+This repository contains registry modifications. Treat `.reg` files like code: only apply changes you understand and trust.
 
 ## Usage
 
@@ -66,11 +67,9 @@ This repository contains registry modifications, including tweaks that affect co
 
 ---
 
-## Maintainers / Forks
+## For Fork Maintainers
 
-This is only relevant for forks.
-
-You can run the repository validator:
+If you fork this repository and continue development, you can use the validator:
 
 ```powershell
 PowerShell -NoProfile -ExecutionPolicy Bypass -File .\scripts\validate-repo.ps1
